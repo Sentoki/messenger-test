@@ -1,4 +1,4 @@
-FROM devilbox/php-fpm-8.1:latest
+FROM php:8.0-fpm
 
 RUN apt-get update && \
     apt-get upgrade -y && \
